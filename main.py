@@ -1,7 +1,8 @@
 # Implementando um Algoritmo A* para Resolução de Labirintos
 # Arthur Passos, Eduarda Chagas e Gabriel Sousa
-#
-#
+# Link do youtube (Sem edição): https://youtu.be/ttIa092JimM
+# Link do youtube (Com edição): https://youtu.be/tYSYfbRMIRs
+# 
 # Imports necessários
 import math
 import queue
@@ -9,7 +10,6 @@ import queue
 # Limites do ambiente
 bound_x = 15
 bound_y = 15
-
 
 #####################################################################################
 #
@@ -143,7 +143,7 @@ def a_star(grid, source, dest, heuristic):
 
     # Inicializa a fila de prioridade
     fronteira = queue.PriorityQueue()
-    # Inicializa uma
+    # Inicializa uma lista dos pontos que ainda não foram explorados
     explorados = {}
 
     fronteira.put(start_cell)
@@ -193,6 +193,7 @@ f = open('input1.txt', 'r')
 lines = f.readlines()
 i = 0
 j = 0
+
 
 for line in lines:
     j = 0
