@@ -1,7 +1,6 @@
 # Implementando um Algoritmo A* para Resolução de Labirintos
 # Arthur Passos, Eduarda Chagas e Gabriel Sousa
-# Link do youtube (Sem edição): https://youtu.be/ttIa092JimM
-# Link do youtube (Com edição): https://youtu.be/tYSYfbRMIRs
+# Link do youtube: https://youtu.be/tYSYfbRMIRs
 # 
 # Imports necessários
 import math
